@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Heart Disease Prediction</title>
+</head>
+<body>
+    <h1>Heart Disease Prediction</h1>
+    <form method="POST">
+        {% for feature in features %}
+            <label>{{ feature }}:</label>
+            <input type="text" name="{{ feature }}" required><br><br>
+        {% endfor %}
+        <button type="submit">Predict</button>
+    </form>
+
+```
+{% if prediction %}
+    <h2>Prediction: {{ prediction }}</h2>
+{% endif %}
+```
+
+</body>
+</html>
+
