@@ -24,3 +24,5 @@ This is a machine learning web application that predicts the likelihood of heart
 
 ## 📁 Project Structure
 
+#step1: streamlit run app.py
+
